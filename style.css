@@ -717,7 +717,7 @@ width: 230px;
 .content--information {
   border: 5px double red;
   width: 100%;
-  height: 700px;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -733,15 +733,24 @@ width: 230px;
 }
 
 .content--information-col-patient-one {
-  background-image: url(assets/content--information.png);
+  background-image: url(assets/Group\ 111.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
   width: 100%;
   max-width: 720px;
 }
 
 .content--information-col-patient-two {
-  background-image: url(assets/content--information-two.png);
+  background-color: #163D7E;
   width: 100%;
   max-width: 720px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.patient-information--content{
+margin: 100px;
 }
 
 .content--information-row-doctor {
@@ -756,7 +765,6 @@ width: 230px;
   background-image: url(assets/content--information-two.png);
   width: 100%;
   max-width: 720px;
-
 }
 
 .content--information-col-doctor-two {
